@@ -1,5 +1,5 @@
 public class SomaArray {
-    public static void somar(int[] arrayNumeros) {
+    public void somar(int[] arrayNumeros) {
         int soma = 0;
 
         for (int i = 0; i < arrayNumeros.length; i++) {
