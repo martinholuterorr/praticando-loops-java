@@ -4,12 +4,12 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        Fatorial contador = new Fatorial();
+        MaiorNumero ponteiro = new MaiorNumero();
 
-        System.out.println("Digite um número para calcular o fatorial:");
-        int numero = scanner.nextInt();
+        System.out.println("Digite os números que deseja compara separados por espaço: ");
+        String[] numerosString = scanner.nextLine().split(" ");
 
-        contador.calcular(numero);
+        ponteiro.compararNumeros(numerosString);
         scanner.close();
         }
     }
