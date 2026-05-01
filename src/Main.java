@@ -3,13 +3,16 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
-        MaiorNumero ponteiro = new MaiorNumero();
+        //Scanner scanner = new Scanner(System.in);
+        //MaiorNumero ponteiro = new MaiorNumero();
 
-        System.out.println("Digite os números que deseja compara separados por espaço: ");
-        String[] numerosString = scanner.nextLine().split(" ");
+        //System.out.println("Digite os números que deseja compara separados por espaço: ");
+        //String[] numerosString = scanner.nextLine().split(" ");
 
-        ponteiro.compararNumeros(numerosString);
-        scanner.close();
+        //ponteiro.compararNumeros(numerosString);
+        //scanner.close();
+
+        ValidadorSenha usuario = new ValidadorSenha();
+        usuario.login();
         }
     }
