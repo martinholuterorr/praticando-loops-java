@@ -12,7 +12,7 @@ public class Main {
         //ponteiro.compararNumeros(numerosString);
         //scanner.close();
 
-        ValidadorNome usuario = new ValidadorNome();
-        usuario.digitarNome();
+        ContaNumPositivoENegativo usuario = new ContaNumPositivoENegativo();
+        usuario.contadorNumPositivoENegativo();
         }
     }
